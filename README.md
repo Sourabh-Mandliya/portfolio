@@ -1,3 +1,3 @@
 # portfolio   main index.html
 
-Sourabh-Mandliya/portfolio
+https://sourabh-mandliya.github.io/portfolio/
