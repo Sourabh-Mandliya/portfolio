@@ -20,7 +20,10 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
       >
     
-    
+      <link 
+        rel="stylesheet"
+        href="./index.css"
+      >
       <!-- jQuery and JS bundle w/ Popper.js -->
       <script 
         src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
@@ -33,11 +36,11 @@
         crossorigin="anonymous"
       ></script>
   </head>
-  <body style=" background-size:cover; background-image: url(https://img.freepik.com/free-vector/abstract-halftone-background_23-2148583453.jpg?size=626&ext=jpg);font-family: Arial, Helvetica, sans-serif;">
+  <body>
     
     <!-- Navigation section Start-->
     <section>
-      <nav class="navbar navbar-expand-lg navbar-dark " style=" position: relative;background-color:rgba(0, 0, 0, 0.7)">
+      <nav class="navbar navbar-expand-lg navbar-dark ">
         <a class="navbar-brand" href="#">
           <i class="fa fa-home"></i>
         </a>
@@ -71,14 +74,11 @@
     <div style="margin-right: 5%;margin-left: 5%;">
       <!--Header section-->
       <section id="about">
-        <div 
-          style="width: 100%;height: 12em;"
-          class="d-flex flex-row bd-highlight mb-3"
-        >
+        <div class="d-flex flex-row bd-highlight mb-3">
           <div class="p-1 bd-highlight">
             <img  
               src="https://media-exp1.licdn.com/dms/image/C4D03AQEKe9jfNf7FaQ/profile-displayphoto-shrink_200_200/0/1591361222191?e=1611792000&v=beta&t=Aofhr7PZLc577XVESuXcPp-d_7oFpW8m8ARC_R2UVYo" 
-              style="border-radius: 50%; min-width: 25%; border: solid 1px aqua;"
+              class="avtar"
             >
           </div>
           <div class="p-5 bd-highlight">
@@ -141,7 +141,7 @@
       <section id="softSkills">
         <h4>Soft skills</h4>
         <br />
-        <ul style="list-style-type: none;">
+        <ul>
           <li>
         <button type="button" class="btn btn-primary">Team Work</button>&nbsp;
         <button type="button" class="btn btn-primary">Self Motivated</button>
@@ -158,7 +158,7 @@
         <h4>Technical skills</h4>
         <br />
         <strong>
-          <ul style="list-style-type: none;">
+          <ul>
             <li>Programming Languages: C, C++, Python</li>
             <li>Concepts: Data Structures, Operating System, DBMS</li>
             <li>Web Technologies: HTML, CSS, Bootstrap, Javascript </li>
@@ -177,7 +177,7 @@
         <h4>Projects</h4>
         <br />
         <strong>
-          <ul style="list-style-type: none;">
+          <ul>
             <li>Health Care Managment System</li>
             <li>Face Recognition And Detection</li>
             
@@ -195,18 +195,18 @@
         <br/>
         <div class="card-deck">
           <a href="https://www.hackerrank.com/certificates/ff9c1b39969a">
-            <div class="card" style="max-width: 15rem;">
-              <img class="card-img-top" src="./images/Python_Basic_Certificate.png" alt="Card image cap">
+            <div class="card certificate-width" >
+              <img class="card-img-top" src="./images/Python_Basic_Certificate.png" alt="Certificate">
             </div>
           </a>
           <a href="https://www.hackerrank.com/certificates/90f0df84ef55">
-            <div class="card" style="max-width: 15rem;">
-                <img class="card-img-top" src="./images/problem-Solving-Basic_Certificate.png" alt="Card image cap">
+            <div class="card certificate-width" >
+                <img class="card-img-top" src="./images/problem-Solving-Basic_Certificate.png" alt="Certificate">
             </div>
           </a>
           <a href="#certficate">
-            <div class="card" style="max-width: 15rem;">
-              <img class="card-img-top" src="./images/Udamy-pythhon-certficate.jpg" alt="Card image cap">
+            <div class="card certificate-width" >
+              <img class="card-img-top" src="./images/Udamy-pythhon-certficate.jpg" alt="Certificate">
             </div>
           </a>
         </div>
@@ -221,9 +221,9 @@
         <h4>Achievements</h4>
         <br />
         <ul style="list-style-type: none;">
-          <li><span class="fa fa-star" style="color: gold;"></span>&nbsp;&nbsp;<strong>Secure AIR 95 Rank (2017) In NIMCET.</strong></li>
-          <li><span class="fa fa-star" style="color: gold;"></span>&nbsp;&nbsp;<strong>Secure AIR 170 Rank In BIT Entrance exam.</strong></li>
-          <li><span class="fa fa-star" style="color: gold;"></span>&nbsp;&nbsp;<strong>Member of Web Club in NITK.</strong></li>
+          <li><span class="fa fa-star color-gold"></span>&nbsp;&nbsp;<strong>Secure AIR 95 Rank (2017) In NIMCET.</strong></li>
+          <li><span class="fa fa-star color-gold"></span>&nbsp;&nbsp;<strong>Secure AIR 170 Rank In BIT Entrance exam.</strong></li>
+          <li><span class="fa fa-star color-gold"></span>&nbsp;&nbsp;<strong>Member of Web Club in NITK.</strong></li>
         </ul>
       </section>
         <!-- AChievement end-->
@@ -248,7 +248,7 @@
        <section id="workshop">
         <h4>Workshop</h4>
         <br/>
-        <ul style="list-style-type: none;">
+        <ul>
           <li>
             <p><strong>KLA-Tenchor's workshop for "Optimization of inspection sitemap layout algorithm".</strong></p>
           </li>
@@ -262,7 +262,7 @@
       <section id="extraActivities">
         <h4>EXTRA CURRICULAR ACTIVITIES</h4>
         <br />
-        <ul style="list-style-type: none;">
+        <ul>
           <li><strong>Participated in Run for Ocean organised in NITK on 2019.</strong></li>
           <li>
             <strong>Participated in IGNITE 2018 and was an active member in Designing Team.</strong>
@@ -289,7 +289,7 @@
       <section id="hobbies">
         <h4>Hobbies</h4>
         <strong>
-          <ul style="list-style-type: none;">
+          <ul>
             <li>Listening Music, Swimming, Playing Cricket  ...</li>              
           </ul>
         </strong>
@@ -299,15 +299,15 @@
      <br/>
     </div>  
         <!-- Footer  start-->
-      <section id="contact" style=" color: white; background-image: url(https://www.elsa-belgium.org/wp-content/uploads/2014/12/footer-background-01-1.jpg);">
-        <footer class="page-footer font-small special-color-dark pt-4" id="contact">
+      <section id="contact" >
+        <footer class="page-footer font-small special-color-dark pt-4 footer-height">
             <!-- Footer Elements -->
-          <div  style="height: 15rem;">
+          <div >
               <!--ADDRESS section Start-->
-            <div style="float:left; margin-left: 5%;font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+            <div class="address">
               <h5>Address </h5>
               <strong>
-                <ul style="list-style-type: none;">
+                <ul>
                   <li>Village : Kayampur</li>
                   <li>Taluka : Sitamau</li>
                   <li>District : Mandsaur</li>
@@ -323,21 +323,21 @@
             <!--ADDRESS section End-->
         
             <!-- Social buttons -->
-            <div style="float: none;margin-right: 5%;">
+            <div class="social-button">
               <ul class="list-unstyled list-inline text-center">
                 <li class="list-inline-item">
                   <a class="btn-floating btn-fb mx-1" href="#contact">
-                    <i class="fa fa-skype fa-2x" style="color:#00aff0;"> </i>
+                    <i class="fa fa-skype fa-2x skype-color"> </i>
                   </a>
                 </li>
                 <li class="list-inline-item">
                   <a class="btn-floating btn-tw mx-1" href="https://github.com/Sourabh-Mandliya">
-                    <i class="fa fa-github fa-2x" style="color: black;"> </i>
+                    <i class="fa fa-github fa-2x github-color"> </i>
                   </a>
                 </li>
                 <li class="list-inline-item">
                   <a class="btn-floating btn-li mx-1" href="https://in.linkedin.com/in/sourabh-mandliya">
-                    <i class="fa fa-linkedin fa-2x" style="color: #0e76a8;"> </i>
+                    <i class="fa fa-linkedin fa-2x linked-color"> </i>
                   </a>
                 </li>
               </ul>
