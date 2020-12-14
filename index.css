@@ -66,7 +66,6 @@ ul{
 
 .social-button{
     display:flex;
+    justify-content: space-around;
     float: none;
-    margin-right: 5%;
-
 }
