@@ -10,3 +10,5 @@ https://covid-india-informaiton.netlify.app/
 
 
 https://today-weather-updates.herokuapp.com/
+
+https://live-weather-informstion.netlify.app/
